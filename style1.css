@@ -1,0 +1,71 @@
+.envelope{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    
+}
+.fa-envelope{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    transform: translate(-50,-50);
+    margin: auto;
+    color: red;
+    animation: move 3s  infinite;
+    animation: move 4s forwards;
+}
+@keyframes move{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.txt{
+    font-size: 65px;
+    color: red;
+    animation: fade 2s forwards;
+    text-align: center;
+}
+@keyframes fade{
+    0% {
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+.dat{
+    font-size: 70px;
+    color: red;
+    animation: ka 1s forwards;
+    text-align: center;
+}
+@keyframes ka{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+.thka{
+    font-size: 24px;
+    color: red;
+    text-align: center;
+    animation: mai 3.5s forwards;
+}
+@keyframes mai{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}

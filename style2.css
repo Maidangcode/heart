@@ -1,0 +1,15 @@
+.mai{
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: aqua;
+    border: 2px;
+}
+textarea{
+   text-align: left;
+    
+}
+h3{
+    text-align: center;
+}
