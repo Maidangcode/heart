@@ -1,8 +1,8 @@
 .mai{
     position: absolute;
     top: 100px;
-    left: 50%;
-    rigth:-50%;
+
+    
     transform: translateX(-50%);
     background-color: aqua;
     border: 1px;
