@@ -16,7 +16,7 @@ textarea{
 h3{
     text-align: center;
      position: fixed;
-    color: pink;
+    color: red;
     bottom: 200px;
     transform: translate(-50%);
     left: 50%;
